@@ -1,0 +1,23 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-section {
+    background-color: lightsalmon;
+    width: 150px;
+}
+
+.middle-section {
+    background-color: rgb(133, 255, 122);
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 300px;
+}
+
+.right-section {
+    background-color: rgb(63, 83, 209);
+    width: 200px;
+}
